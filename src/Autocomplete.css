@@ -1,0 +1,36 @@
+.chipContainer {
+  display: flex;
+  gap: 3px;
+  border-radius: 16px;
+  background-color: #d7d7d7;
+  height: 30px;
+}
+.input {
+  border: none;
+  max-width: 900px;
+  min-width: 300px;
+}
+.input:focus {
+  outline: none;
+}
+.chipDelete {
+  margin: 3px 9px 0 3px;
+  cursor: pointer;
+  color: gray;
+}
+.suggestion {
+  display: flex;
+  gap: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+.suggestion:hover {
+  background-color: rgb(215, 215, 215);
+}
+.suggestionBox {
+  width: 300px;
+  height: 300px;
+  overflow-y: scroll;
+  margin-top: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
